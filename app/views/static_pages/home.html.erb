@@ -1,5 +1,5 @@
 <% if logged_in? %>
-  <%= render 'home_micropost' %>
+  <%= render 'shared/home_micropost' %>
 <% else %>
-  <% render 'welcome_signup' %>
+  <%= render 'shared/welcome_signup' %>
 <% end %>
